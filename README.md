@@ -30,6 +30,32 @@ JWT-based authentication is used to secure protected routes.
 - MySQL Server running locally or remotely  
 - npm (Node Package Manager)
 
-### Clone the repository
+### Steps to Run Backend
 
+1. Clone the repository
+   
 git clone "https://github.com/AdityaAbhayYadav/MindBowser-Assignment-Back-End"
+
+2.Install Dependencies 
+
+npm install
+
+3.Configure environment variables
+
+PORT=5000
+DB_NAME=your_database_name
+DB_USER=your_mysql_username
+DB_PASS=your_mysql_password
+DB_HOST=localhost
+JWT_SECRET=your_jwt_secret_key
+
+4.Setup the database
+
+-> Create a MySQL database matching the name in DB_NAME.
+-> The backend uses Sequelize ORM which will automatically sync models and create necessary tables on startup.
+
+5.Run the backend server
+
+npm start 
+( The server should start at http://localhost:5000 )
+ 
