@@ -32,5 +32,4 @@ JWT-based authentication is used to secure protected routes.
 
 ### Clone the repository
 
-git clone <repo-url>
-cd <repo-folder>
+git clone "https://github.com/AdityaAbhayYadav/MindBowser-Assignment-Back-End"
